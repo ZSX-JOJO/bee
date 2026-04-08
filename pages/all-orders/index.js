@@ -222,4 +222,11 @@ Page({
       phoneNumber: res.data.info.linkPhone,
     })
   },
+  // 申请售后
+  refundApply(e) {
+    const orderId = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: '/pages/refund-apply/index?id=' + orderId
+    })
+  },
 })

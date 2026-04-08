@@ -402,6 +402,17 @@
   background: linear-gradient(135deg, #FFD5D5 0%, #FFC5C5 100%);
 }
 
+/* 警告按钮 - 售后 */
+.btn-warning {
+  background: linear-gradient(135deg, #FFF9E6 0%, #FFEFC2 100%);
+  color: #FF9800;
+  border-color: #FFE0A0;
+}
+
+.btn-warning:active {
+  background: linear-gradient(135deg, #FFEFC2 0%, #FFE5A0 100%);
+}
+
 /* ===========================================
    底部安全区域
    =========================================== */

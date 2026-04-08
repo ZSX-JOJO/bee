@@ -16,6 +16,7 @@
     "pages/order-details/index",
     "pages/order-details/scan-result",
     "pages/order-details/doing",
+    "pages/refund-apply/index",
     "pages/about/index",
     "pages/coupons/index",
     "pages/booking/index",
